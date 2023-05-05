@@ -83,6 +83,8 @@ a {
 .title-container {
   background-color: #2f303a;
   padding: 200px 452px;
+  background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+    url("/images/background-index.webp");
 }
 .title-index {
   font-family: "Roboto";
@@ -102,6 +104,7 @@ a {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 188% */
+  border-radius: 5px;
 }
 .index-button {
   display: flex;
@@ -166,6 +169,12 @@ a {
 
 .index-ourteam {
   background-color: var(--ourteam-background-color);
+}
+.box-shadow {
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  border-radius: 10px;
 }
 .ourteam-name {
   font-family: "Roboto";
@@ -232,7 +241,7 @@ a {
   justify-content: space-between;
 }
 .ourteam_pictures div + div {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 .img-description {
   display: flex;
@@ -314,7 +323,8 @@ a {
   color: #212121;
   cursor: pointer;
 }
-.buttons:hover {
+.buttons:hover,
+.buttons:focus {
   color: var(--interactiv-color);
   color: #ffffff;
 }
@@ -348,5 +358,18 @@ a {
   padding: 10px;
 }
 .img-container .box-info {
-  border: #e1e1f9 solid 1px;
+  border: #e1e1f9 solid;
+  border-width: 0 1px 1px 1px;
+}
+.cards-shadow:hover {
+  -webkit-box-shadow: 0px 11px 8px -6px rgb(102, 103, 118);
+  -moz-box-shadow: 0px 11px 8px -6px rgb(102, 103, 118);
+  box-shadow: 0px 11px 8px -6px rgb(102, 103, 118);
+  border-radius: 10px;
+}
+.buttons-shadow:hover,
+.buttons-shadow:focus {
+  -webkit-box-shadow: 0px 11px 8px -6px rgb(102, 103, 118);
+  -moz-box-shadow: 0px 11px 8px -6px rgb(102, 103, 118);
+  box-shadow: 0px 11px 8px -6px rgb(102, 103, 118);
 }
