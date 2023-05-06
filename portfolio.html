@@ -60,12 +60,22 @@
 
       <div class="contacts">
         <ul class="index-info">
-          <li>
-            <a class="mail" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+          <li class="envelope">
+            <a class="mail icon-envelope" href="mailto:info@devstudio.com">
+              <svg>
+                <use href="images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="smartphone">
+            <a class="tel icon-smartphone" href="tel:+1212-772-4150">
+              <svg>
+                <use href="images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +1212-772-4150</a
             >
           </li>
-          <li><a class="tel" href="tel:+1212-772-4150">+1212-772-4150</a></li>
         </ul>
       </div>
     </header>
@@ -220,25 +230,72 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="index-dim container">
-        <a class="logo-bottom" href="#WebStudio"
-          ><span class="blue-logo">Web</span
-          ><span class="white-logo">Studio</span></a
-        >
-
-        <div>
-          <address class="address">695 Park Ave, NY 10065, USA</address>
-          <div class="info-bottom">
-            <a
-              class="mail-bottom"
-              href="mailto:info@devstudio.com"
-              target="_blank"
-              >info@devstudio.com</a
+      <section class="container footer-container">
+        <div class="info-footer">
+          <div class="index-dim">
+            <a class="logo-bottom" href="/index.html"
+              ><span class="blue-logo">Web</span
+              ><span class="white-logo">Studio</span></a
             >
-            <a class="tel-bottom" href="tel:+1212-772-4150">+1212-772-4150</a>
+
+            <div>
+              <address class="address">695 Park Ave, NY 10065, USA</address>
+              <div class="info-bottom">
+                <a
+                  class="mail-bottom"
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  >info@devstudio.com</a
+                >
+                <a class="tel-bottom" href="tel:+1212-772-4150"
+                  >+1212-772-4150</a
+                >
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+        <div class="contact-us">
+          <h3>FIND US ON</h3>
+          <div class="icons-list-footer">
+            <a
+              href="https://instagram.com"
+              class="icon-footer"
+              aria-label="Instagram"
+            >
+              <svg>
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a
+              href="https://twitter.com"
+              class="icon-footer"
+              aria-label="Twitter"
+            >
+              <svg>
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a
+              href="https://facebook.com"
+              class="icon-footer"
+              aria-label="Facebook"
+            >
+              <svg>
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a
+              href="https://linkedin.com"
+              class="icon-footer"
+              aria-label="LinkedIn"
+            >
+              <svg>
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
     </footer>
   </body>
 </html>

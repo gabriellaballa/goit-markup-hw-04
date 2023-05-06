@@ -152,7 +152,8 @@ a {
   padding-top: 10px;
 }
 .index-whatwedo h2,
-.ourteam-section h2 {
+.ourteam-section h2,
+.costumers-container h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -259,7 +260,7 @@ a {
 .index-dim {
   display: flex;
   flex-direction: column;
-  margin-left: 215px;
+
   padding-top: 60px;
 }
 .logo-bottom {
@@ -375,6 +376,7 @@ a {
   -moz-box-shadow: 0px 11px 8px -6px rgb(102, 103, 118);
   box-shadow: 0px 11px 8px -6px rgb(102, 103, 118);
 }
+/* index-icons*/
 .icon-envelope svg {
   width: 16px;
   height: 12px;
@@ -416,6 +418,13 @@ a {
   margin-bottom: 44px;
   margin-top: 16px;
 }
+.icons-list .icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .icon svg {
   width: 20px;
   height: 20px;
@@ -424,4 +433,108 @@ a {
 .icon svg:hover,
 .icon svg:focus {
   color: var(--interactiv-color);
+}
+
+.icons-list .icon:hover,
+.icons-list .icon:focus {
+  width: 44px;
+  height: 44px;
+  background: var(--interactiv-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.icons-list .icon svg:hover,
+.icons-list .icon svg:focus {
+  color: white;
+}
+.costumers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.costumers-container h2 {
+  margin-top: 94px;
+}
+
+.logos svg {
+  height: 92px;
+  width: 170px;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+.border-dim {
+  border: 1px solid #afb1b8;
+  color: #afb1b8;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.info-footer {
+  margin-right: 94px;
+}
+.contact-us h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.icons-list-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.icons-list-footer .icon-footer {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-footer svg {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+.icon-footer svg:hover,
+.icon-footer svg:focus {
+  color: var(--interactiv-color);
+}
+
+.icons-list-footer .icon-footer:hover,
+.icons-list-footer .icon-footer:focus {
+  width: 44px;
+  height: 44px;
+  background: var(--interactiv-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.icons-list-footer .icon-footer,
+.icons-list-footer .icon-footer {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.icons-list-footer .icon-footer svg:hover,
+.icons-list-footer .icon-footer svg:focus {
+  color: white;
 }
