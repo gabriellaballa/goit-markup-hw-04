@@ -538,3 +538,18 @@ a {
 .icons-list-footer .icon-footer svg:focus {
   color: white;
 }
+.current-sign {
+  position: relative;
+}
+.current-sign:hover::after,
+.current-sign:focus::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  background-color: var(--interactiv-color);
+  border-radius: 2px;
+  display: block;
+  bottom: -22px;
+  left: 0;
+}
